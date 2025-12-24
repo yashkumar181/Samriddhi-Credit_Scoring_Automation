@@ -1,0 +1,10 @@
+# --- Core API and Server ---
+fastapi
+uvicorn
+
+# --- ML Libraries for Model Loading, Prediction, and Data Prep ---
+joblib     # For loading the saved models (joblib.load)
+xgboost    # For model execution (XGBRegressor/XGBClassifier)
+pandas     # For data manipulation and creating DataFrames (pd.DataFrame)
+numpy      # For numerical operations (np.expm1, np.log1p)
+pydantic   # (Installed automatically by FastAPI, but good practice to include if using v1)
