@@ -35,15 +35,15 @@ Predicts **Monthly Per Capita Expenditure (MPCE)** using socio-economic
 indicators derived from the **HCES 2023--24 dataset**.
 
 Uses engineered household features: - Household size, education,
-dwelling type\
-- Fuel & communication expenditure\
-- Asset_Score_X1\
-- Scheme_Index_X2\
-- Religion, Social Group, Occupation\
+dwelling type
+- Fuel & communication expenditure
+- Asset_Score_X1
+- Scheme_Index_X2
+- Religion, Social Group, Occupation
 - Land Ownership, Ration Card Type
 
-**Output:**\
-- `predicted_mpce (₹)`\
+**Output:**
+- `predicted_mpce (₹)`
 - `income_proxy_score` (normalized sigmoid score)
 
 ------------------------------------------------------------------------
@@ -94,8 +94,8 @@ dwelling type\
 ## **1. Clone the repository**
 
 ``` bash
-git clone <your_repo_url>
-cd <your_repo_name>
+git clone <https://github.com/yashkumar181/Samriddhi-Credit_Scoring_Automation/tree/main>
+cd <Samriddhi-Credit_Scoring_Automation>
 ```
 
 ## **2. Install Dependencies**
@@ -111,9 +111,6 @@ pip install -r requirements.txt
 ``` bash
 uvicorn main:app --reload
 ```
-
-Swagger UI → **http://127.0.0.1:8000/docs**
-
 ------------------------------------------------------------------------
 
 # 📤 5. Example Request Body
