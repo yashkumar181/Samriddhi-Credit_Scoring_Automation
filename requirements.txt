@@ -8,3 +8,13 @@ xgboost    # For model execution (XGBRegressor/XGBClassifier)
 pandas     # For data manipulation and creating DataFrames (pd.DataFrame)
 numpy      # For numerical operations (np.expm1, np.log1p)
 pydantic   # (Installed automatically by FastAPI, but good practice to include if using v1)
+
+streamlit
+
+scikit-learn
+
+pdfplumber
+plotly
+
+openpyxl
+requests 
